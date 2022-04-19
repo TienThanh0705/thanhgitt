@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rale;
+    line-height: 1.8;
+  }
+
+.menu{
+
+  background-color: white;
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-between;
+  /* height: 60px; */
+  position: sticky;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+ 
+}
+.menu-left{
+  padding: 24px;
+}
+.menu-left a{
+    font-size: 24px;
+    text-decoration: none;
+}
+.menu-right{
+  padding: 24px;
+  
+}
+.menu-right a{
+    font-size: 24px;
+    text-decoration: none;
+}
+.menu a:hover{
+  background-color: #ccc;
+}
+/* ///////////////////////////////////////////////////// */
+.menu-img{
+    display: flex;
+    width: 100%;
+}
+
+.img-left img{
+    width: 100%;
+    float: left;
+}
+
+.img-right img{
+    width: 100%;
+    float: left;
+    height: 1245px;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+.about{
+    color: black;
+    background-color: #f1f1f1;
+    padding: 64px 0;
+    text-align: center;
+
+}
+.about h3{
+    margin: 10px 0;
+    font-size: 30px;
+    color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.about img{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.about-1{
+    margin: auto;
+    width: 60%;
+}
+.about-1 p{
+    margin: 15px 0;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+}
+/* /////////////////////////// */
+.address p {
+    display: block;
+    margin: 1em 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .address p input {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+  }
+  .address p button {
+    padding: 8px 16px;
+    color: white;
+    background: #000;
+    border: none;
+    width: 100%;
+  }
+  .address p button:hover {
+    background: #ccc;
+    color: #000;
+  }
